@@ -63,9 +63,9 @@ configure:
 		   -DCMAKE_BUILD_TYPE=$(BUILD_TYPE) ..
 
 checkout:
-	git clone git@github.com:jstraub/jsCore.git
-	git clone git@github.com:jstraub/cudaPcl.git
-	git clone git@github.com:jstraub/mmf.git
+	git clone https://github.com/jstraub/jsCore.git
+	git clone https://github.com/jstraub/cudaPcl.git
+	git clone https://github.com/jstraub/mmf.git
 #	svn co https://svn.csail.mit.edu/rrg_pods/drivers/kinect
 
 update:
